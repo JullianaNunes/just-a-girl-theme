@@ -1,0 +1,166 @@
+{
+  "name": "Just a Girl",
+  "type": "dark",
+  "semanticHighlighting": true,
+
+  "semanticTokenColors": {
+    "annotation:dart": {
+      "foreground": "#c37c98"
+    },
+    "enumMember": {
+      "foreground": "#de0b8a"
+    },
+    "macro": {
+      "foreground": "#c37c98"
+    },
+    "memberOperatorOverload": {
+      "foreground": "#c90076"
+    },
+    "parameter.label:dart": {
+      "foreground": "#c7ccd6"
+    },
+    "property:dart": {
+      "foreground": "#c37c98"
+    },
+    "tomlArrayKey": {
+      "foreground": "#c37c98"
+    },
+    "variable:dart": {
+      "foreground": "#c37c98"
+    },
+    "variable.constant": {
+      "foreground": "#c37c98"
+    },
+    "variable.defaultLibrary": {
+      "foreground": "#c37c98"
+    }
+  },
+    "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#c37c98",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": "comment, punctuation.definition.comment",
+      "settings": {
+        "foreground": "#c37c98"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation.separator.delimiter",
+        "punctuation.separator.c",
+        "punctuation.separator.cpp",
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        "punctuation.separator.arguments.python",
+        "punctuation.definition.list.begin.python",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.list.end.python",
+        "meta.tag"
+      ],
+      "settings": {
+        "foreground": "#c7ccd6"
+      }
+    },
+        {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#dce1e5"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "#c90076",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "meta.require",
+        "support.function.any-method",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#a3537b",
+        "fontStyle": "bold"
+      }
+    },
+      {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.language",
+        "variable.c",
+        "import.storage.java",
+        "token.variable.parameter.java",
+        "keyword.operator.expression.import"
+      ],
+      "settings": {
+        "foreground": "#a62772"
+      }
+    },
+    {
+      "name": "Text - Variáveis",
+      "scope": [
+        "variable.parameter.function",
+        "invalid.illegal.bad-ampersand.html",
+        "meta.embedded",
+        "punctuation.separator.period.python",
+        "punctuation.separator.element.python",
+        "punctuation.parenthesis.begin.python",
+        "punctuation.parenthesis.end.python",
+        "storage.modifier.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#c7ccd6"
+      }
+    },
+      {
+      "name": "Single quoted strings",
+      "scope": "string.quoted.single",
+      "settings": {
+        "foreground": "#d8c1d9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Double quoted strings",
+      "scope": "string.quoted.double",
+      "settings": {
+        "foreground": "#d8c1d9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Other quoted strings",
+      "scope": "string.quoted.other",
+      "settings": {
+        "foreground": "#d8c1d9"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#dce1e5"
+      }
+    },
+      
