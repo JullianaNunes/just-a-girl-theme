@@ -1,8 +1,7 @@
 {
-  "name": "Just a Girl",
+  "name": "One Dark Pro Flat",
   "type": "dark",
   "semanticHighlighting": true,
-
   "semanticTokenColors": {
     "annotation:dart": {
       "foreground": "#c37c98"
@@ -35,7 +34,7 @@
       "foreground": "#c37c98"
     }
   },
-    "tokenColors": [
+  "tokenColors": [
     {
       "name": "Comments",
       "scope": [
@@ -72,7 +71,7 @@
         "foreground": "#c7ccd6"
       }
     },
-        {
+    {
       "name": "Strings",
       "scope": "string",
       "settings": {
@@ -103,7 +102,7 @@
         "fontStyle": "bold"
       }
     },
-      {
+    {
       "name": "Variables",
       "scope": [
         "variable",
@@ -133,7 +132,7 @@
         "foreground": "#c7ccd6"
       }
     },
-      {
+    {
       "name": "Single quoted strings",
       "scope": "string.quoted.single",
       "settings": {
@@ -163,4 +162,180 @@
         "foreground": "#dce1e5"
       }
     },
-      
+    {
+      "name": "String interpolation",
+      "scope": [
+        "string.interpolated",
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.end.ts",
+        "punctuation.definition.string.begin.tsx",
+        "punctuation.definition.string.end.tsx",
+        "punctuation.definition.string.begin.jsx",
+        "punctuation.definition.string.end.jsx"
+      ],
+      "settings": {
+        "foreground": "#d8c1d9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String escape characters",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#dd7bb5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": [
+        "entity.name.class",
+        "entity.name.class.identifier.namespace.type",
+        "variable.other.class.js",
+        "variable.other.class.php",
+        "variable.other.class.ts"
+      ],
+      "settings": {
+        "foreground": "#dd7bb5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Namespaces",
+      "scope": "entity.name.namespace",
+      "settings": {
+        "foreground": "#dd7bb5"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword.operator.expression.instanceof",
+        "keyword.operator.new",
+        "keyword.operator.ternary",
+        "keyword.operator.optional",
+        "keyword.operator.delete",
+        "keyword.operator.expression.keyof",
+        "keyword.operator.instanceof.java",
+        "keyword.operator.assignment.c",
+        "keyword.operator.comparison.c",
+        "keyword.operator.c",
+        "keyword.operator.increment.c",
+        "keyword.operator.decrement.c",
+        "keyword.operator.bitwise.shift.c",
+        "keyword.operator.assignment.cpp",
+        "keyword.operator.comparison.cpp",
+        "keyword.operator.cpp",
+        "keyword.operator.increment.cpp",
+        "keyword.operator.decrement.cpp",
+        "keyword.operator.bitwise.shift.cpp",
+        "keyword.operator.arithmetic",
+        "keyword.operator.comparison",
+        "keyword.operator.increment",
+        "keyword.operator.decrement",
+        "keyword.operator.relational",
+        "keyword.operator.sigil.rust",
+        "keyword.operator.logical.python",
+        "keyword.operator.assignment.compound",
+        "keyword.operator.error-control.php",
+        "keyword.operator.type.php",
+        "keyword.operator.regexp.php",
+        "keyword.operator.heredoc.php,keyword.operator.nowdoc.php",
+        "keyword.operator.module",
+        "keyword.operator.arithmetic.go",
+        "keyword.operator.address.go",
+        "keyword.operator.arithmetic.cpp",
+        "keyword.operator.expression.is",
+        "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
+        "keyword.operator.expression.delete,keyword.operator.expression.in"
+      ],
+      "settings": {
+        "foreground": "#c90076"
+      }
+    },
+    {
+      "name": "Keywords - italic",
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#c90076",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword Operator - bold",
+      "scope": [
+        "keyword.operator.word",
+        "keyword.control",
+        "entity.name.class.xi"
+      ],
+      "settings": {
+        "foreground": "#c90076",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Integers",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#a74e79"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": [
+        "constant",
+        "punctuation.definition.constant"
+      ],
+      "settings": {
+        "foreground": "#fdd9de"
+      }
+    },
+    {
+      "name": "Constant other symbol",
+      "scope": "constant.other.symbol",
+      "settings": {
+        "foreground": "#dd7bb5"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#c90076"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": [
+        "entity.other.attribute-name",
+        "entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "foreground": "#a11969"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": "entity.name.type.namespace",
+      "settings": {
+        "foreground": "#c37c98"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": ".support.class, entity.name.type.class",
+      "settings": {
+        "foreground": "#c90076"
+      }
+    },
+    {
+      "name": "Type Name",
+      "scope": "entity.name.type",
+      "settings": {
+        "foreground": "#c37c98"
+      }
+    }
+  ]
+}
