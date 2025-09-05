@@ -691,7 +691,7 @@
     "editor.findMatchBackground": "#dabad2",
     "editor.findMatchHighlightBackground": "#fffddf",
     "editor.foreground": "#c7ccd6",
-    "editor.lineHighlightBackground": "#2c313c"
+    "editor.lineHighlightBackground": "#2c313c",
   "list.focusBackground": "#323842",
   "sideBar.border": "#37393d",
   "terminal.ansiWhite": "#d7dae0",
